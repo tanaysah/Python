@@ -1,0 +1,5 @@
+print("Enter first string:")
+s1 = input()
+print("Enter second string:")
+s2 = input()
+print("Result =", s1 + s2)

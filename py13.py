@@ -1,0 +1,7 @@
+print("Enter first number:")
+a = int(input())
+print("Enter second number:")
+b = int(input())
+print("Enter third number:")
+c = int(input())
+print("Average =", (a + b + c) / 3)
