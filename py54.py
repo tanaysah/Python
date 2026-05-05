@@ -1,5 +1,9 @@
-def modify_tuple(t):
-    print("Tuple cannot be modified")
+#Implement the point (1-5 whatever is applicable) for tuple.
+t = (1, 2, 3)
 
-my_tuple = (10, 20, 30)
-modify_tuple(my_tuple)
+temp = list(t)
+temp.append(4)
+
+t = tuple(temp)
+
+print("Modified tuple:", t)
